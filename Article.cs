@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace ApiTest
 {
     class Article
@@ -7,5 +9,6 @@ namespace ApiTest
         public string Abstract { get; set; }
         public string Url { get; set; }
         public string Byline { get; set; }
+        public List<Multimedia> Multimedia { get; set; }
     }
 }
